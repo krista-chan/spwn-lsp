@@ -63,6 +63,13 @@
 			"configuration": "language-config.json"
 		}
 	],
+	"grammars": [
+		{
+			"language": "spwn",
+			"scopeName": "source.spwn",
+			"path": "./syntaxes/spwn.tmLanguage.json"
+		}
+	],
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -b",
