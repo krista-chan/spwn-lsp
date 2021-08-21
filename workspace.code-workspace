@@ -9,6 +9,9 @@
 	],
 	"settings": {
 		"lldb.showDisassembly": "auto",
-		"lldb.dereferencePointers": true
+		"lldb.dereferencePointers": true,
+		"conventionalCommits.scopes": [
+			"vscode"
+		]
 	}
 }
