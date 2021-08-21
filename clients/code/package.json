@@ -17,7 +17,6 @@
 		"vscode": "^1.52.0"
 	},
 	"activationEvents": [
-		"onLanguage:plaintext",
 		"onLanguage:spwn"
 	],
 	"main": "./client/out/extension",
@@ -52,6 +51,18 @@
 			}
 		}
 	},
+	"languages": [
+		{
+			"id": "spwn",
+			"extensions": [
+				".spwn"
+			],
+			"aliases": [
+				"SPWN"
+			],
+			"configuration": "language-config.json"
+		}
+	],
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -b",
