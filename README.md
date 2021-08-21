@@ -1,6 +1,6 @@
 # SPWN LSP
 
-[SPWN LSP logo](resources/logo.png)
+[!SPWN LSP logo](resources/logo.png)
 
 an alpha LSP for spwn
 
