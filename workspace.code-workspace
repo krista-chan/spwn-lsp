@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "clients\\code"
+		}
+	],
+	"settings": {
+		"lldb.showDisassembly": "auto",
+		"lldb.dereferencePointers": true
+	}
+}
